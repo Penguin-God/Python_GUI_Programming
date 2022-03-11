@@ -12,11 +12,11 @@ root.geometry("700x500+350+150") # 가로크기 * 세로크기 + x좌표 + y좌�
 label1 = Label(root, text="Hello Label")
 label1.pack()
 
-checkImg = PhotoImage(file="checkImg.png")
+checkImg = PhotoImage(file="1_Basic\img\checkImg.png")
 label2 = Label(root, image=checkImg)
 label2.pack()
 
-XImg = PhotoImage(file="XImg.png")
+XImg = PhotoImage(file="1_Basic\img\XImg.png")
 
 isChange = False
 def Change():
