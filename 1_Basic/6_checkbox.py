@@ -12,7 +12,7 @@ chkbox.select() # 선택 처리
 chkbox.deselect() # 선택 해제 처리
 chkbox.pack()
 
-intVar2 = IntVar()
+intVar2 = BooleanVar() # chkbox에 boolean 형으로 값을 저장한다
 chkbox2 = Checkbutton(root, text="Hello Checkbox", variable=intVar2)
 chkbox.select()
 chkbox2.pack()
